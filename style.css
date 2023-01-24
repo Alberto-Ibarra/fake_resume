@@ -1,3 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
 body{
-    background-color: red;
+    background-color: lightgray;
+    text-align: center;
+
+}
+
+.background-head{
+    background-color: black;
+    margin-top: -30px;
+    height: 200px;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.icons{
+    margin-top: 0px;
+}
+
+.icon{
+    padding:0 10px;
+    display: inline;
+}
+
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    /* background-color: black; */
+    height: 40px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+h3{
+    color:darkblue;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+li{
+    padding: 10px 30px;
 }
